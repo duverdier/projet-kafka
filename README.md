@@ -1,40 +1,57 @@
 ## Description
+
 NestJs + Kafka + Webocket Demo
 
 ## Installation
 
 ```bash
-$ npm install
+yarn install
+```
+
+## Docker
+
+```bash
+# run
+$ docker compose up -d
+
 ```
 
 ## Running the app
 
 ```bash
 # development
-$ npm run start
+$ yarn start
 
 # watch mode
-$ npm run start:dev
+$ yarn start:dev
 
 # production mode
-$ npm run start:prod
+$ yarn start:prod
 ```
 
 ## Test
 
 ```bash
 # unit tests
-$ npm run test
+$ yarn test
 
 # e2e tests
-$ npm run test:e2e
+$ yarn test:e2e
 
 # test coverage
-$ npm run test:cov
+$ yarn test:cov
+```
+
+## WebSocket
+
+```$xslt
+ss http://localhost:3000/socket
 ```
 
 ## Test
+
 open test.html on local browser for test WebSocket
+
 ```$xslt
 open test.html
 ```
